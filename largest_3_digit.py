@@ -1,0 +1,16 @@
+#FIND LARGEST 3 DIGIT NUMBERS
+
+num1=int(input("Enter first number:"))
+num2=int(input("Enter second number:"))
+num3=int(input("Enter third number:"))
+
+print("First number is:",num1)
+print("Second number is:",num2)
+print("Third number is:",num3)
+
+if num1>num2 and num1>num3:
+    print("num1 is largest")
+elif num2>num1 and num2>num3:
+    print("num2 is largest")
+else:
+    print("num3 is largest")
